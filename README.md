@@ -1,2 +1,2 @@
 # ohtuvarasto
-https://github.com/Disaster93/ohtuvarasto/actions/workflows/WORKFLOW-FILE/badge.svg
+https://github.com/Disaster93/ohtuvarasto/actions/workflows/main.yml/badge.svg
