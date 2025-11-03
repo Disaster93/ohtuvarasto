@@ -31,3 +31,11 @@ jobs:
         env:
           PYTHONPATH: src
         run: poetry run coverage run --branch -m pytest
+
+      - name: Coverage report (XML for Codecov)
+        run: poetry run coverage xml
+
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v4
+        env:
+          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
